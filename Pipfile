@@ -4,14 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "*"
-psycopg2 = "*"
 psycopg2-binary = "*"
-django-heroku = "*"
-gunicorn = "*"
-whitenoise = "*"
+psycopg2 = "*"
+django = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "*"
+python_version = "3.10"
