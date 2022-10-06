@@ -5,5 +5,5 @@ from . import views
 urlpatterns = [
     path('', views.Home.as_view(), name="home"),
     path('about/', views.About.as_view(), name="about"), # <- new route
-    path('birds/', views.ArtistList.as_view(), name="bird_list")
+    path('birds/', views.BirdList.as_view(), name="bird_list")
 ]
