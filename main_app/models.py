@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class Birds(models.Model):
+class Bird(models.Model):
 
     name = models.CharField(max_length=100)
     img = models.CharField(max_length=250)
